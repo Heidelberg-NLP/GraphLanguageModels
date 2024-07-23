@@ -28,13 +28,16 @@ export PYTHONPATH=$PYTHONPATH:.
 
 ### 2 Data
 
-You can download the ConceptNet data (45GB) by running:
+You can download the ConceptNet data (94MB) by running:
 ```bash
 wget https://www.cl.uni-heidelberg.de/~plenz/GLM/relation_subgraphs_random.tar.gz
 tar -xvzf relation_subgraphs_random.tar.gz
 mv relation_subgraphs_random data/knowledgegraph/conceptnet
 rm relation_subgraphs_random.tar.gz
 ```
+
+I you want to run the GNN baselines aswell you can download the data including the embeddings (45GB) by replacing the link above with `https://www.cl.uni-heidelberg.de/~plenz/GLM/relation_subgraphs_random_with_GNN_data.tar.gz`
+
 and the REBEL data (2.2GB) by running:
 ```bash
 wget https://www.cl.uni-heidelberg.de/~plenz/GLM/rebel_dataset.tar.gz
