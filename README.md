@@ -6,10 +6,12 @@ Please feel free to send us an email (<a href="mailto:plenz@cl.uni-heidelberg.de
   <img src="./figs/GLM_overview.png" width="500" title="GLM" alt="Picture depicting the general concept of GLMs.">
 </p>
 
+## Huggingface
+We have an implementation of the code on Huggingface which should be easy to include in your own projects: [https://huggingface.co/models?other=glm-t5](https://huggingface.co/models?other=glm-t5).
+
 ## Minimal working example
 In `minimal_working_example.py` we provide a minimal working example to show how to load and use the classification models for inference. Note that these models are not trained, i.e., they are like the linear-probing setting from the paper. To use the minimal working example, you only need to install the requirements -- other steps are not necessary.
 
-We intend to make the models available via Huggingface soon, including trained checkpoints. 
 
 ### 1 Requirements
 
