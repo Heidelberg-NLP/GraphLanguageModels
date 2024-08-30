@@ -7,7 +7,7 @@ Please feel free to send us an email (<a href="mailto:plenz@cl.uni-heidelberg.de
 </p>
 
 ## Huggingface
-We have an implementation of the code on Huggingface which should be easy to include in your own projects: [https://huggingface.co/models?other=glm-t5](https://huggingface.co/models?other=glm-t5).
+We have an implementation of the code on Huggingface which should be easy to include in your own projects: [https://huggingface.co/models?other=arxiv:2401.07105](https://huggingface.co/models?other=arxiv:2401.07105).
 
 ## Minimal working example
 In `minimal_working_example.py` we provide a minimal working example to show how to load and use the classification models for inference. Note that these models are not trained, i.e., they are like the linear-probing setting from the paper. To use the minimal working example, you only need to install the requirements -- other steps are not necessary.
